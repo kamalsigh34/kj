@@ -1,4 +1,4 @@
-FROM debian:bullseye-20230208
+FROM debian:11
 MAINTAINER Andras Mitzki <andras.mitzki@balabit.com>
 
 ENV PKG_CONFIG_PATH=$PKG_CONFIG_PATH:/usr/local/lib/pkgconfig/
